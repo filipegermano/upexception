@@ -1,4 +1,4 @@
-package br.com.uppersystems.upexception;
+package com.github.filipegermano.upexception;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

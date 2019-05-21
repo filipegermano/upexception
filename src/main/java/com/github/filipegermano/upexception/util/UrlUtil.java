@@ -1,4 +1,4 @@
-package br.com.uppersystems.upexception.util;
+package com.github.filipegermano.upexception.util;
 
 import lombok.extern.slf4j.Slf4j;
 

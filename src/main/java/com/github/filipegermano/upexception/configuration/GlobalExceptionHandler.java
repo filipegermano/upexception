@@ -1,8 +1,5 @@
-package br.com.uppersystems.upexception.configuration;
+package com.github.filipegermano.upexception.configuration;
 
-import br.com.uppersystems.upexception.enums.ExceptionMessage;
-import br.com.uppersystems.upexception.exception.*;
-import br.com.uppersystems.upexception.util.UrlUtil;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -18,6 +15,10 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
+
+import com.github.filipegermano.upexception.enums.ExceptionMessage;
+import com.github.filipegermano.upexception.exception.*;
+import com.github.filipegermano.upexception.util.UrlUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

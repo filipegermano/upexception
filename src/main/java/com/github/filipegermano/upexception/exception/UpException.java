@@ -1,6 +1,7 @@
-package br.com.uppersystems.upexception.exception;
+package com.github.filipegermano.upexception.exception;
 
-import br.com.uppersystems.upexception.enums.ExceptionMessage;
+import com.github.filipegermano.upexception.enums.ExceptionMessage;
+
 import lombok.Getter;
 
 public class UpException extends RuntimeException {

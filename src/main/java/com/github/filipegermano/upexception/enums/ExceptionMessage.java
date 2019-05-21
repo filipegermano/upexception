@@ -1,12 +1,13 @@
-package br.com.uppersystems.upexception.enums;
+package com.github.filipegermano.upexception.enums;
 
 
-import br.com.uppersystems.upexception.exception.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.http.HttpStatus;
+
+import com.github.filipegermano.upexception.exception.*;
 
 /**
  * Enum that concentrates the messages and validations of the exceptions.

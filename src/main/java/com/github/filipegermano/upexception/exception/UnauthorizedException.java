@@ -1,6 +1,6 @@
-package br.com.uppersystems.upexception.exception;
+package com.github.filipegermano.upexception.exception;
 
-import br.com.uppersystems.upexception.enums.ExceptionMessage;
+import com.github.filipegermano.upexception.enums.ExceptionMessage;
 
 /**
  * This class represents the exceptions related to resource requests that were rejected by the bussiness logic.

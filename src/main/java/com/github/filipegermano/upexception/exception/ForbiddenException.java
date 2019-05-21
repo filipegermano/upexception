@@ -1,6 +1,6 @@
-package br.com.uppersystems.upexception.exception;
+package com.github.filipegermano.upexception.exception;
 
-import br.com.uppersystems.upexception.enums.ExceptionMessage;
+import com.github.filipegermano.upexception.enums.ExceptionMessage;
 
 /**
  * Class that represents the exceptions related to requests where the callers has no access.
